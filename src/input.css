@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+
+@theme {
+    --font-roboto: "Roboto", serif;
+    --font-dancing :  "Dancing Script", serif;
+    --font-birthstone: "Birthstone", serif;
+  }
