@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
       "Liberation Mono", "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
+    --color-red-600: oklch(0.577 0.245 27.325);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-xs: 0.75rem;
@@ -416,8 +417,17 @@
       max-width: 96rem !important;
     }
   }
+  .m-0 {
+    margin: calc(var(--spacing) * 0);
+  }
   .m-1 {
     margin: calc(var(--spacing) * 1);
+  }
+  .mx-1 {
+    margin-inline: calc(var(--spacing) * 1);
+  }
+  .mx-2 {
+    margin-inline: calc(var(--spacing) * 2);
   }
   .mx-auto {
     margin-inline: auto;
@@ -436,6 +446,9 @@
   }
   .-mt-52 {
     margin-top: calc(var(--spacing) * -52);
+  }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -1276,6 +1289,9 @@
   .bg-\[\#002c54\] {
     background-color: #002c54;
   }
+  .bg-\[\#002f59\] {
+    background-color: #002f59;
+  }
   .bg-\[\#0088cc\] {
     background-color: #0088cc;
   }
@@ -1285,8 +1301,14 @@
   .bg-\[\#7384a1\] {
     background-color: #7384a1;
   }
+  .bg-\[\#bg-\[\#004989\]\] {
+    background-color: #bg-[#004989];
+  }
   .bg-\[\#f5efeb\] {
     background-color: #f5efeb;
+  }
+  .bg-\[002f59\] {
+    background-color: 002f59;
   }
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
@@ -1531,6 +1553,9 @@
   .object-top {
     object-position: top;
   }
+  .p-0 {
+    padding: calc(var(--spacing) * 0);
+  }
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
@@ -1542,6 +1567,9 @@
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -1558,6 +1586,9 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
@@ -1572,6 +1603,9 @@
   }
   .pb-0 {
     padding-bottom: calc(var(--spacing) * 0);
+  }
+  .pb-4 {
+    padding-bottom: calc(var(--spacing) * 4);
   }
   .pb-11 {
     padding-bottom: calc(var(--spacing) * 11);
@@ -1762,6 +1796,9 @@
   }
   .text-\[\#f5efeb\] {
     color: #f5efeb;
+  }
+  .text-red-600 {
+    color: var(--color-red-600);
   }
   .text-white {
     color: var(--color-white);
