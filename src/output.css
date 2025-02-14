@@ -477,6 +477,9 @@
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
+  .mb-56 {
+    margin-bottom: calc(var(--spacing) * 56);
+  }
   .mb-60 {
     margin-bottom: calc(var(--spacing) * 60);
   }
@@ -2292,6 +2295,21 @@
   .md\:mb-8 {
     @media (width >= 48rem) {
       margin-bottom: calc(var(--spacing) * 8);
+    }
+  }
+  .md\:mb-\[400px\] {
+    @media (width >= 48rem) {
+      margin-bottom: 400px;
+    }
+  }
+  .md\:mb-\[450px\] {
+    @media (width >= 48rem) {
+      margin-bottom: 450px;
+    }
+  }
+  .md\:mb-\[500px\] {
+    @media (width >= 48rem) {
+      margin-bottom: 500px;
     }
   }
   .md\:mb-\[510px\] {
